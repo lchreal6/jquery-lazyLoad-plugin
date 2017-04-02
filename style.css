@@ -1,0 +1,47 @@
+body {
+
+    height: 2000px;
+
+}
+
+#img1, #img2 {
+    
+    width: 100%;
+    
+}
+
+#img1 {
+
+    position: absolute;
+    top: 800px;
+    
+}
+
+#img1 img {
+
+    display: block;
+    margin: 0 auto;
+    width: 590px;
+    height: 340px;
+}
+
+#img2 {
+
+    position: absolute;
+    top: 2500px;
+    margin-top: 2000px;
+    
+}
+
+#img2 img{
+
+    display: block;
+    margin: 0 auto;
+    width: 590px;
+    height: 340px;
+
+}
+
+.disable-hover {
+    pointer-events: none;
+}
